@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.1.0](https://github.com/taikoxyz/taiko-mono/compare/protocol-v1.0.0...protocol-v1.1.0) (2024-03-12)
+
+
+### Features
+
+* **protocol:** allow minGuardians be any value between 0 and numGuardians ([#16384](https://github.com/taikoxyz/taiko-mono/issues/16384)) ([0b1385e](https://github.com/taikoxyz/taiko-mono/commit/0b1385e37b9d17fb9ce41fcb48793fc2b8fc468e))
+* **protocol:** enable EIP712 signature for TimelockTokenPool ([#16335](https://github.com/taikoxyz/taiko-mono/issues/16335)) ([d93e4c5](https://github.com/taikoxyz/taiko-mono/commit/d93e4c54e37e13ac8a88ae01c732da77a5845c6c))
+* **protocol:** risc0 verifier contract ([#16331](https://github.com/taikoxyz/taiko-mono/issues/16331)) ([17abc18](https://github.com/taikoxyz/taiko-mono/commit/17abc189ca3d2752beb5400c036a650fd5b9c895))
+* **protocol:** upgrade to use  OZ 4.9.6 ([#16360](https://github.com/taikoxyz/taiko-mono/issues/16360)) ([2a0fe95](https://github.com/taikoxyz/taiko-mono/commit/2a0fe9526718bdf799874c7f2b0968f3dda7b6f2))
+* **relayer:** two-step bridge + watchdog + full merkle proof ([#15669](https://github.com/taikoxyz/taiko-mono/issues/15669)) ([1039a96](https://github.com/taikoxyz/taiko-mono/commit/1039a960f8c0a0896821f067cca1137f108d847d))
+
+
+### Bug Fixes
+
+* **protocol:** add address manager to taiko token ([#16394](https://github.com/taikoxyz/taiko-mono/issues/16394)) ([c64ec19](https://github.com/taikoxyz/taiko-mono/commit/c64ec193c95113a4c33692289e23e8d9fa864073))
+* **protocol:** fix a bug in changeBridgedToken ([#16403](https://github.com/taikoxyz/taiko-mono/issues/16403)) ([42c279f](https://github.com/taikoxyz/taiko-mono/commit/42c279f0c8d884e6c3f76a2750d72a856ea6fc70))
+* **protocol:** fix bridge prove message issue using staticcall ([#16404](https://github.com/taikoxyz/taiko-mono/issues/16404)) ([dd57560](https://github.com/taikoxyz/taiko-mono/commit/dd57560f1f7bad453696044080884533ece05876))
+* **protocol:** fix custom coinbase `transferFrom` issue (alternative) ([#16327](https://github.com/taikoxyz/taiko-mono/issues/16327)) ([7423ffa](https://github.com/taikoxyz/taiko-mono/commit/7423ffa2fb2c5df870be9f1f2cab23c3409e5046))
+
 ## [1.0.0](https://github.com/taikoxyz/taiko-mono/compare/protocol-v0.15.2...protocol-v1.0.0) (2024-03-01)
 
 
